@@ -1,0 +1,111 @@
+.precio {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.descuento {
+    font-size: 16px;
+    color: #39b54a;
+    margin-left: 10px;
+}
+
+.descripciones {
+    font-size: 16px;
+    padding-top: 20px;
+    color: #666;
+    display: none;
+}
+
+.art:hover .descripciones{
+    display: block;
+}
+.producto {
+    box-sizing: border-box;
+    background-color: white;
+}
+.detalleArt{
+    background-color: white;
+    margin-top: 0;
+    padding: 10px 10px;
+    display: none;
+    border-top: 1px solid #ebebeb;;
+    position: relative;
+}
+
+.detalleArt i:hover{
+    transform: rotate(-90deg);
+    transition: all .3s ease-in-out;
+}
+
+.cajaPaso1 {
+    margin-top: 1px;
+    margin: 15px;
+    border: solid 1px #ebebeb;
+}
+
+.banner {
+  width: 100%;
+}
+
+.buttonBurger {
+    background-color: #03264C;
+    border-radius: 20%;
+    color: #ebebeb;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.truck {
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 20px;
+    position: absolute;
+    left: 80%;
+    top: -15px;
+    box-sizing: border-box;
+}
+
+.cajaMain {
+    box-sizing: border-box;
+    width: 90%;
+}
+
+
+
+.contenedorArt {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    background-color: #ebebeb;
+}
+
+.contenedorArt article:hover .descripciones{
+    display: block;
+}
+
+.art{
+    width: 40 vw;
+    padding: 10px;
+    margin: 5%;
+  }
+  .art{
+    margin-top: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.art img{
+    width: 100%;
+    transition: all .5s ease-in-out;   
+}
