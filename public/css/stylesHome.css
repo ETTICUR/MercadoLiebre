@@ -15,7 +15,6 @@
     font-size: 16px;
     padding-top: 20px;
     color: #666;
-    display: none;
 }
 
 .art:hover .descripciones{
@@ -25,11 +24,11 @@
     box-sizing: border-box;
     background-color: white;
 }
+
 .detalleArt{
     background-color: white;
     margin-top: 0;
     padding: 10px 10px;
-    display: none;
     border-top: 1px solid #ebebeb;;
     position: relative;
 }
@@ -39,10 +38,8 @@
     transition: all .3s ease-in-out;
 }
 
-.cajaPaso1 {
-    margin-top: 1px;
-    margin: 15px;
-    border: solid 1px #ebebeb;
+.blanco{
+    background-color: white;
 }
 
 .banner {
@@ -78,14 +75,11 @@
 
 .cajaMain {
     box-sizing: border-box;
-    width: 90%;
 }
 
 
 
-.contenedorArt {
-    display: flex;
-    flex-wrap: wrap;
+.contenedorArt {    
     margin: auto;
     padding: 20px;
     background-color: #ebebeb;
@@ -96,16 +90,18 @@
 }
 
 .art{
-    width: 40 vw;
+    display: flex;
+    justify-content: center;       
+    flex-wrap: wrap;
     padding: 10px;
-    margin: 5%;
-  }
-  .art{
     margin-top: 10px;
     transition: all .5s ease-in-out;
-}
-
+  }
 .art img{
     width: 100%;
     transition: all .5s ease-in-out;   
+}
+
+.art article{
+    margin-bottom: 10px;  
 }

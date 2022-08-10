@@ -1,74 +1,132 @@
-*{
-  font-family: Roboto, sans-serif;
+* {
+  font-family: 'Roboto', sans-serif; 
   box-sizing: border-box;
   font-size: 12px;
   padding: 0;
   margin: 0;
 }
-header{
-    font-family: Roboto, sans-serif;
-    background-color: #EAC926;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    box-sizing: border-box;
-  }
-footer{
-    text-align: center;
-    background-color:#ebebeb; 
-    color: #666;
-    list-style-type: none;
-  }
-nav{
-  text-align: center;
-  display: none;
 
+header {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eac926;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  background-color: #ebebeb;
-  box-sizing: border-box;
-  }
+.compraTarjeta{  
+  padding: 10px;
+}
 
+.encabezado{
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+}
+
+.logo{            
+  width: 50%;
+  padding: 5px;
+}
+
+.box{
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background-color: #ebebeb;
+  color: #666;
+  list-style-type: none;
+}
+
+.itemFooter{     
+  padding: 10px 15px;
+}
+
+.itemFooter i{     
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #1259c3;
+}
+
+nav {
+
+  display: none;
+}
+
+body {            
+  background-color: #ebebeb;
+
+}
 
 main {
   margin: auto;
   width: 90%;
 }
-.menu{
-  list-style-type: none
+.menu {
+  list-style-type: none;
 }
-.logo{
+.logo {
   font-size-adjust: initial;
 }
-.h1.titulares{
-  text-align: center;
-  font-size: 24px;
+
+
+.titulares{           
+  font-size: 20px;   
+  color: #666;
 }
 
-@media (min-width: 361px) {
-  .site,
-  .login-bar,
-  .descripcion {
-      display: none;
+
+@media (min-width: 481px) {   
+
+  .menu{
+    display: flex;   
+    justify-content: space-between;
   }
-  article{
-        width:100% ;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-  footer{
+
+  .menu ul{
+    display: flex;     
+    list-style: none;
+    padding: 10px;
+  }
+
+  .menu ul a{
+    text-decoration: none;
+    color: black;  
+    margin-right: 8px;
+  }
+
+  .buttonBurger {
+    display: none;
+  }
+
+  .art article {  
+    width: 45%;
+    height: 100%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  footer {
     width: 100%;
   }
-  .div-encabezado{
+  .div-encabezado {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 }
 @media (min-width: 769px) {
-  article{box-shadow: 0px 0px 10px rgb(100, 100, 100);}
-  .buttonBurger {
-    display: none;
-}
+  .art article {   
+    width: 23%;
+    height: 100%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .seccionFooter{
+    display: flex;
+  }
 }
