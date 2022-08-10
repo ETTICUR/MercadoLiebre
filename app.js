@@ -2,10 +2,11 @@ const express = require('express')
 const app = express();
 const path = require('path');
 const publicPath = path.resolve(__dirname, './public');
+const dotenv = require('dotenv').config();
 
 app.use(express.static("public"));
-app.listen(3030, () => {
-    console.log("Servidor corriendo en puerto 3030");
+app.listen(process.env.PORT, () => {
+    console.log("Servidor corriendo en puerto" + process.env.PORT);
 });
 app.get("/", function (req, res) {
     res.sendFile(path.join(__dirname, "/views/home.html"));
