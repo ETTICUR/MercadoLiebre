@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   font-size: 12px;
   padding: 0;
@@ -15,22 +15,22 @@ header {
   box-sizing: border-box;
 }
 
-.compraTarjeta{  
+.compraTarjeta {
   padding: 10px;
 }
 
-.encabezado{
+.encabezado {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-around;
 }
 
-.logo{            
+.logo {
   width: 50%;
   padding: 5px;
 }
 
-.box{
+.box {
   width: 50%;
 }
 
@@ -41,11 +41,11 @@ footer {
   list-style-type: none;
 }
 
-.itemFooter{     
+.itemFooter {
   padding: 10px 15px;
 }
 
-.itemFooter i{     
+.itemFooter i {
   font-size: 30px;
   margin-bottom: 5px;
   color: #1259c3;
@@ -56,7 +56,7 @@ nav {
   display: none;
 }
 
-body {            
+body {
   background-color: #ebebeb;
 
 }
@@ -65,36 +65,38 @@ main {
   margin: auto;
   width: 90%;
 }
+
 .menu {
   list-style-type: none;
 }
+
 .logo {
   font-size-adjust: initial;
 }
 
 
-.titulares{           
-  font-size: 20px;   
+.titulares {
+  font-size: 20px;
   color: #666;
 }
 
 
-@media (min-width: 481px) {   
+@media (min-width: 481px) {
 
-  .menu{
-    display: flex;   
+  .menu {
+    display: flex;
     justify-content: space-between;
   }
 
-  .menu ul{
-    display: flex;     
+  .menu ul {
+    display: flex;
     list-style: none;
     padding: 10px;
   }
 
-  .menu ul a{
+  .menu ul a {
     text-decoration: none;
-    color: black;  
+    color: black;
     margin-right: 8px;
   }
 
@@ -102,7 +104,7 @@ main {
     display: none;
   }
 
-  .art article {  
+  .art article {
     width: 45%;
     height: 100%;
     margin: 10px;
@@ -112,21 +114,27 @@ main {
   footer {
     width: 100%;
   }
+
   .div-encabezado {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 }
+
 @media (min-width: 769px) {
-  .art article {   
+  .art article {
     width: 23%;
     height: 100%;
     margin: 10px;
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
 
-  .seccionFooter{
+  .seccionFooter {
     display: flex;
+  }
+
+  .search-input {
+    padding: 10px 150px 10px 10px;
   }
 }

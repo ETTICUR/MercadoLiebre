@@ -105,5 +105,40 @@
 .art article{
     margin-bottom: 10px;  
 }
+.login{
+    transition: all .4s ease-in-out;
+}
 
+.login:hover{
+    background-color:bisque;
+    cursor: pointer;
+}
+.itemFooter i{
+    color:blue;
+    font-size: 30px;
+    margin-bottom: 10px;
+    transition: all .4s ease-in-out;
+}
+
+.item-footer i:hover{
+    color: rgb(187, 184, 184);
+}
+
+.item-footer{
+    padding: 30px;
+    text-align: center;
+}
+
+.art main:hover{
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+}
+
+.buttonSearch{
+    color: #666;
+    padding: 3px;
+    border: none;
+    background-color: #635d5d;
+    margin-left: -25px;
+    cursor: pointer;
+}
    

@@ -63,3 +63,17 @@
     border: none;
     padding: 10px;
 }
+
+@media(min-width: 769px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin:auto;
+    }
+
+    .items-footer{
+        display: flex;
+        justify-content: space-around;
+    }
+}
