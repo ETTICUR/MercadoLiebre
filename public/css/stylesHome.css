@@ -2,13 +2,15 @@
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 30%;
 }
 
 .descuento {
     font-size: 16px;
     color: #39b54a;
     margin-left: 10px;
+    width: 70%;
+    text-align: left;
 }
 
 .descripciones {
@@ -135,6 +137,10 @@
 .art main:hover{
     box-shadow: 0 0 10px rgb(100, 100, 100);
 }
+.artDetalle{
+    display: flex;
+}
+
 
 
    

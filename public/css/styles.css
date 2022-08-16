@@ -28,6 +28,7 @@ header {
 ._encabezado{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -132,6 +133,10 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .encabezado{
+    width: 65%;
+    align-self: center;
   }
 }
 
