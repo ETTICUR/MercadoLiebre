@@ -4,6 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap"
+            rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/stylesHome.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/53cd63c78c.js"
@@ -12,26 +17,28 @@
     </head>
     <body class="cajaMain">
         <header>
-            <div class="encabezado">
-                <div class=logo>
-                    <img src="/images/logo-mercado-liebre.svg" alt="Logo de
-                        Liebre">
-                </div>
-                <div class="box">
-                    <div class="container-1">
-                        <span class="icon">
-                            <button id="buttonSearch">
-                                <i class="fa fa-search"></i>
-                            </button>
-                        </span>
-                        <input type="search" id="search" placeholder="Buscar
-                            producto, marcas" />
+            <div class="_encabezado">
+                <div class="encabezado">
+                    <div class=logo>
+                        <img src="/images/logo-mercado-liebre.svg" alt="Logo de
+                            Liebre">
+                    </div>
+                    <div class="box">
+                        <div class="container-1">
+                            <span class="icon">
+                                <button id="buttonSearch">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            <input type="search" id="search" placeholder="Buscar
+                                producto, marcas" />
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="compraTarjeta">
-                <p><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en
-                    cuotas y sin tarjeta de crédito </p>
+                <div class="compraTarjeta">
+                    <p><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en
+                        cuotas y sin tarjeta de crédito </p>
+                </div>
             </div>
             <nav class="menu">
                 <ul>
@@ -41,11 +48,11 @@
                     <li><a href="#">Ayuda</a></li>
                 </ul>
                 <ul>
-                    <li><a href="#">Crea tu cuenta<i class="fa-regular
+                    <li><a href="./register">Crea tu cuenta<i class="fa-regular
                                 fa-address-card"></i></a></li>
-                    <li class="login"><a href="#">Ingresá <i class="fa-solid
+                    <li><a href="./login">Ingresá <i class="fa-solid
                                 fa-right-to-bracket"></i></a></li>
-                    <li><a href="#">Mis compras <i class="fa-solid
+                    <li><a href="login">Mis compras <i class="fa-solid
                                 fa-basket-shopping"></i></a></li>
                 </ul>
             </nav>
@@ -57,7 +64,7 @@
         <main class="contenedorArt">
             <h2 class="titulares">Basado en tu última visita</h2>
             <div class="art">
-                <article>
+                <article class="article">
                     <img class=producto src="/images/img-cafetera-moulinex.jpg"
                         alt="Cafetera Moulinex">
                     <div class="blanco">
